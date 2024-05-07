@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@toxictoast/azkaban-base-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Base Helpers for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -27,6 +27,7 @@
     "url": "https://github.com/ToxicToast/Azkaban-Base-Helpers.git"
   },
   "dependencies": {
+    "@apialerts/js": "^1.1.1",
     "slugify": "^1.6.6",
     "uuid": "^9.0.1"
   }
