@@ -1,25 +1,33 @@
 {
+  "private": false,
   "name": "@toxictoast/azkaban-base-helpers",
   "version": "0.0.1",
   "description": "Base Helpers for my Azkaban Services",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ToxicToast/Azkaban-Base-Helpers.git"
+    "run": "ts-node src/index.ts",
+    "build": "tsup"
   },
   "author": "ToxicToast <info@toxictoast.de> (https://blog.toxictoast.de/)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ToxicToast/Azkaban-Base-Helpers/issues"
-  },
-  "homepage": "https://github.com/ToxicToast/Azkaban-Base-Helpers#readme",
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ToxicToast/Azkaban-Base-Helpers.git"
+  },
+  "dependencies": {
+    "slugify": "^1.6.6",
+    "uuid": "^9.0.1"
   }
 }
