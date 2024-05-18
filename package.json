@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@toxictoast/azkaban-base-helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Base Helpers for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "run": "ts-node src/index.ts",
-    "build": "tsup"
+    "build": "tsup",
+    "release": "npm publish --access public"
   },
   "author": "ToxicToast <info@toxictoast.de> (https://blog.toxictoast.de/)",
   "license": "ISC",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@apialerts/js": "^1.1.1",
     "slugify": "^1.6.6",
+    "typeorm": "^0.3.20",
     "uuid": "^9.0.1"
   }
 }
