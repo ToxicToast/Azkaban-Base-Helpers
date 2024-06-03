@@ -1,7 +1,9 @@
 import * as bcrypt from 'bcrypt';
 
-export function HashPasswordHelper(salt: string, password: string): string {
-  return bcrypt.hashSync(password, salt);
+const hashString = '$2b$16$w3WQWZTAMzvO6nz.aZzXKO';
+
+export function HashPasswordHelper(password: string): string {
+  return bcrypt.hashSync(password, hashString);
 }
 
 export function ComparePasswordHelper(

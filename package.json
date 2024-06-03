@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@toxictoast/azkaban-base-helpers",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Base Helpers for my Azkaban Services",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
