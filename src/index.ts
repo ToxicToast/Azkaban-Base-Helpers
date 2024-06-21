@@ -5,3 +5,4 @@ export * from './provider-builder.helper';
 export * from './error-code.helper';
 export * from './string-generator.helper';
 export * from './hash.helper';
+export * from './user-groups.helper';

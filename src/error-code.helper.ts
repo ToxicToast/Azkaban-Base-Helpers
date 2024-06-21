@@ -1,3 +1,8 @@
+export enum GenericErrorCodes {
+  NOT_FOUND = 'NOT_FOUND_ERROR',
+  UNKNOWN = 'UNKNOWN_ERROR',
+}
+
 export enum UserErrorCodes {
   NOT_FOUND = 'USER_NOT_FOUND_ERROR',
   NOT_ACTIVE = 'USER_NOT_ACTIVE_ERROR',
@@ -7,8 +12,15 @@ export enum UserErrorCodes {
 export enum AuthErrorCodes {
   EMAIL_FOUND = 'EMAIL_FOUND_ERROR',
   USERNAME_FOUND = 'USERNAME_FOUND_ERROR',
+  INVALID_PASSWORD = 'INVALID_PASSWORD_ERROR',
+  IS_ACTIVE = 'IS_ACTIVE_ERROR',
+  TOKEN_UNMATCH = 'TOKEN_UNMATCH_ERROR',
 }
 
 export enum NotificationErrorCodes {
   NOT_FOUND = 'USER_NOT_FOUND_ERROR',
+}
+
+export enum FoodFolioCategoryErrorCodes {
+  NOT_FOUND = 'CATEGORY_NOT_FOUND_ERROR',
 }
