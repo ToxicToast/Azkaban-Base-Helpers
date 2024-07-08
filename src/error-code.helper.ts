@@ -17,6 +17,10 @@ export enum AuthErrorCodes {
   TOKEN_UNMATCH = 'TOKEN_UNMATCH_ERROR',
 }
 
+export enum GroupErrorCodes {
+  NOT_FOUND = 'GROUP_NOT_FOUND_ERROR',
+}
+
 export enum NotificationErrorCodes {
   NOT_FOUND = 'USER_NOT_FOUND_ERROR',
 }

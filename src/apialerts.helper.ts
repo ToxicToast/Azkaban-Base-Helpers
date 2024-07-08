@@ -1,4 +1,4 @@
-import alerts from '@apialerts/js';
+import alerts from 'apialerts-js';
 
 interface ApiAlertsSendProps {
   message: string;
