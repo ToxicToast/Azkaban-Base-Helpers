@@ -6,3 +6,6 @@ export * from './error-code.helper';
 export * from './string-generator.helper';
 export * from './hash.helper';
 export * from './user-groups.helper';
+export * from './warcraft-classes.helper';
+export * from './warcraft-races.helper';
+export * from './warcraft-specs.helper';
